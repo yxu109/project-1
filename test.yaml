@@ -1,0 +1,27 @@
+name: Python Application Test
+
+
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest # The type of runner that the job will run on
+
+    steps:
+    
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.11' 
+
+
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+       
+
+
+    - name: Run tests
+      run: python test.py

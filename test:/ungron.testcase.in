@@ -1,0 +1,6 @@
+json.user.name = "John Doe"
+json.user.age = 30
+json.user.address.street = "123 Main St"
+json.user.address.city = "Anytown"
+json.user.phoneNumbers[0] = "123-456-7890"
+json.user.phoneNumbers[1] = "456-789-0123"
