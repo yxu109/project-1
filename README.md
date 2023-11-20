@@ -8,7 +8,7 @@ Yizheng Xu yxu109@stevens.edu
 
 4. Errors that occur when the program runs differently than expected due to incorrect logic or algorithms. 
 
-5.While working on wc.py, a script designed to mimic the Unix wc command by counting lines, words, and characters in a file, I encountered a significant issue. After implementing exception handling, I discovered the script was running out of memory. This led me to believe the issue was related to how the file content was being read and processed. I conducted research on memory-efficient file reading in Python and learned that reading large files line-by-line, instead of reading the whole file into memory at once, is more memory-efficient.
+While working on wc.py, a script designed to mimic the Unix wc command by counting lines, words, and characters in a file, I encountered a significant issue. After implementing exception handling, I discovered the script was running out of memory. This led me to believe the issue was related to how the file content was being read and processed. I conducted research on memory-efficient file reading in Python and learned that reading large files line-by-line, instead of reading the whole file into memory at once, is more memory-efficient.
 
 5. List of Implemented Extensions
 
